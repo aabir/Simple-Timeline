@@ -1,0 +1,27 @@
+#timelinecontainer { width: 100%; margin: 0 auto; overflow: hidden; position: relative; z-index: 1;}
+#timelinecontainer a:hover { text-decoration: none; }
+.workline { border-top: 1px dashed #E1E1E1; }
+.top {margin-bottom: 15px;}
+.bottom {margin-top: 15px; }
+.work_description { overflow: hidden; width: 100%; float: left; /* height: 160px; */ display: none;  }
+.year_list { width: 50%; float: right; margin-right: 0; margin-bottom: 25px; position: relative; height: 140px; }
+.year_list:last-child { margin-bottom: 0; }
+.full-desc{ margin-left: 10px; width: 95%; color: #a5a5a5; font-size: 12px; line-height: 18px; text-align: right; }
+.featured-img { float: left; width: 160px; height: auto; margin-right: 10px; margin-bottom: 10px; }
+.work_year-box { float: left; width: 100px; margin-right: 18px; padding-left: 8px; }
+.work_year { background: #d0d0d0;  font-size: 16px; border-radius: 50%; margin: 0 auto; height: 60px; width: 60px; line-height: 60px; text-align: center; font-weight: bold; }
+.work_year:hover {font-size: 20px; }
+.work_year a { color: #ffffff; text-decoration: none; }
+.year_active { background: #2e9ab6; color: #ffffff; font-size: 20px; border-radius: 50%; float: left; height: 90px; width: 90px; line-height: 90px; text-align: center; font-weight: bold; }
+.position-active { font-size: 24px; color: #2e9ab6; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;}
+.position{ font-size: 20px; color: #000000; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0; text-decoration: none; }
+.company { color: #000000; font-size: 14px; font-weight: bold; margin: 5px 0;}
+.company-active { color: #000000; font-size: 18px; font-weight: bold; }
+.preview_desc { color: #a5a5a5; font-size: 12px; line-height: 18px; width: 100%; float: right; }
+
+.line { border-right: 1px dashed #E1E1E1; height: 100%; left: 58.7%; position: absolute; top: 0%; width: 3px; z-index: -1;}
+.display { display: block;}
+/*.hideme { opacity: 0;}*/
+.work_holder { height: 160px; float: left; width: 50%;}
+.time-header { text-align: center; margin-top: 60px; }
+.work_list { float: left; width: 60%; }

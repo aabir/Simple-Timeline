@@ -1,0 +1,1 @@
+This is a simple timeline plugin for WordPress. After installation of the plugin a new menu will appear in WP admin,name Timeline. To display timeline in a page use short code like [simple_timeline], you also can specify number of post to show in the page, to display 4 post use the shortcode like this [simple_timeline per_page = "4"].
