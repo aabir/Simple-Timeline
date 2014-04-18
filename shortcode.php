@@ -2,6 +2,9 @@
 
 if(!is_admin() ){
 	wp_enqueue_style( 'simple-timeline', plugin_dir_url( __FILE__ ) . 'css/timeline.css' );
+	
+	wp_enqueue_script( 'timeline-jquery', plugin_dir_url( __FILE__ ). 'js/jquery-1.9.0.min.js');
+	
 	wp_enqueue_script( 'timeline-js', plugin_dir_url( __FILE__ ). 'js/timeline.js');
 }
 ?>

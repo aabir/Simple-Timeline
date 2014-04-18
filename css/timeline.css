@@ -19,7 +19,7 @@
 .company-active { color: #000000; font-size: 18px; font-weight: bold; }
 .preview_desc { color: #a5a5a5; font-size: 12px; line-height: 18px; width: 100%; float: right; }
 
-.line { border-right: 1px dashed #E1E1E1; height: 100%; left: 58.7%; position: absolute; top: 0%; width: 3px; z-index: -1;}
+.line { border-right: 1px dashed #E1E1E1; height: 100%; left: 55.5%; position: absolute; top: 0%; width: 3px; z-index: -1;}
 .display { display: block;}
 /*.hideme { opacity: 0;}*/
 .work_holder { height: 160px; float: left; width: 50%;}
